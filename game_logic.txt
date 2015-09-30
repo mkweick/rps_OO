@@ -1,0 +1,17 @@
+capture player name
+start game loop
+  - player move
+  - computer move
+  - print selections
+  - who won? (tie is draw)
+  - play again?
+
+class Choice
+class Player
+class Human
+class Computer
+class Rps (game)
+
+
+run game by:
+Rps.new.play

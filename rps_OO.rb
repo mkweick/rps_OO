@@ -67,7 +67,6 @@ end
 class Computer < Player
   def get_choice
     self.selection = Choice.new(CHOICES.keys.sample)
-    system 'clear'
   end
 end
 
@@ -118,6 +117,7 @@ class Rps
       shoot
       human.get_choice
       computer.get_choice
+      system 'clear'
       puts human
       puts computer
       compare_choices
